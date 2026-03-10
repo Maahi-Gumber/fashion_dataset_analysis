@@ -22,7 +22,7 @@ This project analyzes the time series evolution of MESHKI’s Instagram video an
 ​
 
 ## Data and Features
-* The notebook works from a large exported Instagram dataset (meshki_dataset.csv) with over 1,600 columns, including:
+*The notebook works from a manually collected Instagram dataset (meshki_dataset.csv), gathered via API calls and scraping MESHKI’s official Instagram account, including:
 ​
 
 * Post metadata: caption text, type (Video, Sidecar, etc.), tagged users, URLs.
