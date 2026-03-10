@@ -25,13 +25,13 @@ This project analyzes the time series evolution of MESHKI’s Instagram video an
 * The notebook works from a manually collected Instagram dataset (meshki_dataset.csv), gathered via API calls and scraping MESHKI’s official Instagram account, including:
 ​
 
-** Post metadata: caption text, type (Video, Sidecar, etc.), tagged users, URLs.
+* Post metadata: caption text, type (Video, Sidecar, etc.), tagged users, URLs.
 ​
 
-** Engagement metrics: commentsCount, likesCount, videoPlayCount, videoViewCount.
+* Engagement metrics: commentsCount, likesCount, videoPlayCount, videoViewCount.
 ​
 
-** Time information: ISO timestamps converted to timezone‑aware datetimes (Australia/Sydney) for time series work.
+* Time information: ISO timestamps converted to timezone‑aware datetimes (Australia/Sydney) for time series work.
 ​
 
-** Derived features: selected engagement columns and a standardized / weighted engagement rate used for modeling.
+* Derived features: selected engagement columns and a standardized / weighted engagement rate used for modeling.
